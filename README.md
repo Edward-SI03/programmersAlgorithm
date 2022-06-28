@@ -12,9 +12,10 @@
 문자열 s는 알파벳으로만 이루어져 있습니다.
 
 # 입출력 예
-s :	answer
-"pPoooyY" :	true
-"Pyy" :	false
+|s|answer|
+|---|---|
+|"pPoooyY"|true|
+|"Pyy"|false|
 
 # 입출력 예 설명
 입출력 예 #1
