@@ -7,19 +7,20 @@ function solution(array, commands) {
     let j = m[1];
     let k = m[2];
 
-    let newAnser = array.slice(i - 1, j);
-    newAnser.sort();
-
-    answer.push(newAnser[k - 1]);
+    let newAnswer = array.slice(i - 1, j);
+    newAnswer.sort(function (a, b) {
+      return a - b;
+    });
+    answer.push(newAnswer[k - 1]);
   }
   return answer;
 }
 
 solution(
-  [1, 5, 2, 6, 3, 7, 4],
+  [1, 5, 2, 6, 3, 7, 4, 11, 9, 13, 15, 8],
   [
-    [2, 5, 3],
-    [4, 4, 1],
-    [1, 7, 3],
+    [2, 9, 4],
+    [5, 5, 1],
+    [1, 12, 7],
   ]
 );
