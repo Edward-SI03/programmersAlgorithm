@@ -9,3 +9,6 @@ https://programmers.co.kr/learn/courses/30/lessons/12916
 
 # K번째 수
 https://programmers.co.kr/learn/courses/30/lessons/42748
+
+# 완주하지 못한 선수
+https://school.programmers.co.kr/learn/courses/30/lessons/42576
