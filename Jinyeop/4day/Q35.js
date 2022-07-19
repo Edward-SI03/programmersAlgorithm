@@ -4,7 +4,7 @@ function solution(n, arr1, arr2) {
     let answer = [];
     let arr3 = []
 
-    // arr1 2진법 변환
+    // 1번 지도 arr1 2진법 변환
     for (let i = 0; i < arr1.length; i++) {
         arr1[i] = arr1[i].toString(2)
         // 00010 은 10으로 표현되니까 길이가 n만큼 안대면 앞에 0추가
@@ -13,7 +13,7 @@ function solution(n, arr1, arr2) {
         }
     }
 
-    // arr2 2진법 변환
+    // 2번 지도 arr2 2진법 변환
     for (let i = 0; i < arr2.length; i++) {
         arr2[i] = arr2[i].toString(2)
         // 00010 은 10으로 표현되니까 길이가 n만큼 안대면 앞에 0추가
