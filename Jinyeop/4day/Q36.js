@@ -1,4 +1,5 @@
 // https://school.programmers.co.kr/learn/courses/30/lessons/67256
+// 답지봄.. ㅜ
 
 function solution(numbers, hand) {
     let answer = '';
