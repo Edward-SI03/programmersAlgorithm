@@ -17,19 +17,15 @@ function solution(board, moves) {
     console.log(board)
     console.log(D)
 
-    // let f= 0
-    // while (f<D.length){
-        for (let i = 0; i < D.length; i++) {
+
+    for (let i = 0; i < D.length; i++) {
         if (D[i] == D[i + 1]) {
             answer = answer + 2
             D.splice(i, 2);
             i = 0; // i-- 은 테스트 실패
+            console.log(D)
         }
     }
-    console.log(D)
-    // f++
-    // }
-
 
 
     return console.log(answer);
