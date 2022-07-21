@@ -1,4 +1,6 @@
 // https://school.programmers.co.kr/learn/courses/30/lessons/42576
+// 답지 봄 푼걸로 결과는 맞는데 시간이 너무 오래 걸려서 실패
+// 정렬해서 같은 인덱스인데 값이 다르면 바로 알 수 있음
 
 function solution(participant, completion) {
     let answer = []
