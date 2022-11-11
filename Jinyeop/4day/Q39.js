@@ -1,5 +1,6 @@
 // https://school.programmers.co.kr/learn/courses/30/lessons/12924
 // 답안지 봄
+// 답지의 도움
 
 function solution(n) {
     let answer = 1;
